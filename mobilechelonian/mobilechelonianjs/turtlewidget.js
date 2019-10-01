@@ -321,8 +321,8 @@ define(['nbextensions/mobilechelonianjs/paper', "@jupyter-widgets/base"], functi
             
             var canvas = document.createElement('canvas');
             canvas.id     = "canvas1";
-            canvas.width  = 401;
-            canvas.height = 401;
+            canvas.width  = 801;
+            canvas.height = 801;
             canvas.resize;
 
             canvasDiv.append(canvas);
